@@ -1,6 +1,8 @@
 # Darkly Darker
 
-Chrome theme
+A dark Chrome theme
+
+![Darkly Darker Chrome Theme](http://dropsinn.s3.amazonaws.com/chrome-chrome-dark.png)
 
 The initial inspiration for this theme was the Arc Theme: https://github.com/horst3180/arc-theme
 
@@ -18,50 +20,23 @@ Open the Chrome Extensions panel by going to `chrome://extensions/`. Paste that 
 
 Drag and drop the `.crx` file you just downloaded here. The theme will now be applied.
 
+## Screenshots
+
+![Darkly Darker Chrome Theme with Google](http://dropsinn.s3.amazonaws.com/chrome-chrome-full.png)
+
+I find this theme especially pleasant when used with the Chrome Devtools dark theme:
+
+![Darkly Darker Chrome Theme with Chrome Devtools](http://dropsinn.s3.amazonaws.com/chrome-chrome-with-devtools.png)
+
+It also works quite nicely when viewing any site that already has a dark theme, like [compass-style.org](http://compass-style.org/):
+
+![Darkly Darker Chrome Theme with Compass Style](http://dropsinn.s3.amazonaws.com/Screen%20Shot%202016-09-08%20at%2012.28.01%20AM.png)
+
+The incognito styling is also purple to differentiate between normal and private browsing:
+
+![Darkly Darker Chrome Incognito Theme](http://dropsinn.s3.amazonaws.com/chrome-chrome-incognito.png)
+
 ---
-
-Original `manifest.json` for reference:
-
-```json
-{
-  "manifest_version": 2,
-  "version": "1",
-  "name": "Darkly Darker",
-  "description": "Darkly Darker theme for Chrome/Chromium",
-  "theme": {
-    "colors": {
-      "bookmark_text": [ 35, 35, 35 ],
-      "button_background": [ 0, 0, 0, 0 ],
-      "frame": [ 235, 235, 237 ],
-      "frame_inactive": [ 235, 235, 237 ],
-      "frame_incognito": [ 235, 235, 237 ],
-      "frame_incognito_inactive": [ 235, 235, 237 ],
-      "ntp_background": [ 255, 255, 255 ],
-      "ntp_text": [ 0, 0, 0 ],
-      "tab_background_text": [ 100, 100, 100 ],
-      "tab_text": [ 20, 20, 20 ],
-      "toolbar": [ 223, 223, 223 ]
-    },
-    "images": {
-      "theme_frame": "images/theme_frame.png",
-      "theme_frame_inactive": "images/theme_frame.png",
-      "theme_toolbar": "images/theme_toolbar.png"
-    },
-    "properties": {
-      "ntp_background_alignment": "bottom",
-      "ntp_background_repeat": "no-repeat"
-    },
-    "tints": {
-      "background_tab": [ -1, 0.5, 0.85 ],
-      "buttons": [ -1, -1, -1 ],
-      "frame": [ -1, -1, -1 ],
-      "frame_inactive": [ -1, -1, -1 ],
-      "frame_incognito": [ -1, 0.2, 0.35 ],
-      "frame_incognito_inactive": [ -1, 0.3, 0.6 ]
-    }
-  }
-}
-```
 
 ## Theme Docs
 
