@@ -12,7 +12,7 @@ The initial inspiration for this theme was the Arc Theme: https://github.com/hor
 
 **Step: 2:**
 
-Open the Chrome Extensions panel by going to <chrome://extensions/>
+Open the Chrome Extensions panel by going to [chrome://extensions/](chrome://extensions/)
 
 **Step: 2:**
 
