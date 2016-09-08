@@ -4,6 +4,22 @@ Chrome theme
 
 The initial inspiration for this theme was the Arc Theme: https://github.com/horst3180/arc-theme
 
+## Installation
+
+**Step 1:**
+
+### [Download the theme](https://github.com/iansinnott/darkly-darker-theme/raw/master/darkly_darker_chrome_theme.crx)
+
+**Step: 2:**
+
+Open the Chrome Extensions panel by going to <chrome://extensions/>
+
+**Step: 2:**
+
+Drag and drop the `.crx` file you just downloaded here. The theme will now be applied.
+
+---
+
 Original `manifest.json` for reference:
 
 ```json
@@ -52,6 +68,8 @@ Original `manifest.json` for reference:
 **Helpful Articles:**
 
 * https://developer.chrome.com/extensions/themes
+* https://www.quora.com/How-can-I-create-my-own-chrome-theme
+* https://sites.google.com/site/gsugsa/google-apps/google-chrome/how-to-create-a-theme
 
 The closest thing I could find to docs was the source that seems to control the theme:
 
