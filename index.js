@@ -44,10 +44,27 @@ module.exports = {
       bookmark_text: midWhite,
 
       // Not yet sure what this one does...
-      button_background: [0, 0, 0, 0],
+      button_background: [255, 255, 255],
     },
+
+    // This image business only seems to work for the buttons in the ⌘F find
+    // menu, however it has the pleasant side effect of somehow killing off the
+    // gradients on buttons in the download bar, which is what I wanted.
+    images: {
+      theme_button_background: 'images/button_bg.png',
+    },
+
+    // Not sure if these are necessary but they are here for now
+    properties: {
+      ntp_background_alignment: 'bottom',
+      ntp_background_repeat: 'no-repeat'
+    },
+
+    // Tints are a bit odd. They are in the form [h, s, l] where each is between
+    // 0 and 1. A -1 means "no change"
     tints: {
-      background_tab: [ -1, 0, 0.10 ],
+      background_tab: [-1, 0, 0.10],
+      buttons: [-1, 0, 0.3],
     },
   },
 };
