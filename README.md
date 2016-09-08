@@ -51,6 +51,10 @@ Original `manifest.json` for reference:
 
 The closest thing I could find to docs was the source that seems to control the theme:
 
+**Terminology:**
+
+* **ntp**: I think this stands for something like "no tab present"
+
 **Constants:**
 
 https://src.chromium.org/viewvc/chrome/trunk/src/chrome/browser/themes/theme_properties.h
