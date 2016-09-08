@@ -49,6 +49,10 @@ Original `manifest.json` for reference:
 
 ## Theme Docs
 
+**Helpful Articles:**
+
+* https://developer.chrome.com/extensions/themes
+
 The closest thing I could find to docs was the source that seems to control the theme:
 
 **Terminology:**
