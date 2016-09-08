@@ -4,8 +4,9 @@
   "description": "Chrome theme",
   "main": "index.js",
   "scripts": {
+    "build:clean": "rm -rf dist",
     "build:assets": "cp -r images dist/",
-    "build": "mkdir -p dist && npm run build:assets && node build.js"
+    "build": "npm run build:clean && mkdir -p dist && npm run build:assets && node build.js"
   },
   "repository": {
     "type": "git",
