@@ -56,17 +56,28 @@
         200
       ],
       "button_background": [
-        0,
-        0,
-        0,
-        0
+        255,
+        255,
+        255
       ]
+    },
+    "images": {
+      "theme_button_background": "images/button_bg.png"
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
     },
     "tints": {
       "background_tab": [
         -1,
         0,
         0.1
+      ],
+      "buttons": [
+        -1,
+        0,
+        0.3
       ]
     }
   }
