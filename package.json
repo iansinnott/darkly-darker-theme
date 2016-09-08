@@ -1,0 +1,19 @@
+{
+  "name": "darkly-darker-theme",
+  "version": "1.0.0",
+  "description": "Chrome theme",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist && node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iansinnott/darkly-darker-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iansinnott/darkly-darker-theme/issues"
+  },
+  "homepage": "https://github.com/iansinnott/darkly-darker-theme#readme"
+}
