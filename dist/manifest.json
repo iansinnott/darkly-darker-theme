@@ -1,19 +1,19 @@
 {
-  "manifest_version": 2,
-  "version": "1",
+  "manifest_version": 3,
+  "version": "2",
   "name": "Darkly Darker",
   "description": "Darkly Darker theme for Chrome/Chromium",
   "theme": {
     "colors": {
       "frame": [
-        25,
-        25,
-        27
+        32,
+        33,
+        36
       ],
       "frame_inactive": [
-        85,
-        85,
-        87
+        60,
+        64,
+        67
       ],
       "frame_incognito": [
         47,
@@ -26,58 +26,48 @@
         41
       ],
       "ntp_background": [
-        42,
-        42,
-        42
+        50,
+        54,
+        57
       ],
       "ntp_text": [
-        200,
-        200,
-        200
-      ],
-      "tab_background_text": [
-        100,
-        100,
-        100
-      ],
-      "tab_text": [
-        200,
-        200,
-        200
-      ],
-      "toolbar": [
-        42,
-        42,
-        42
-      ],
-      "bookmark_text": [
-        200,
-        200,
-        200
-      ],
-      "button_background": [
         255,
         255,
         255
+      ],
+      "tab_background_text": [
+        154,
+        160,
+        166
+      ],
+      "tab_text": [
+        241,
+        243,
+        244
+      ],
+      "toolbar": [
+        50,
+        54,
+        57
+      ],
+      "rookmark_text": [
+        241,
+        243,
+        244
       ]
     },
     "images": {
-      "theme_button_background": "images/button_bg.png"
+      "theme_ntp_background": "images/theme_ntp_background.png"
     },
     "properties": {
-      "ntp_background_alignment": "bottom",
-      "ntp_background_repeat": "no-repeat"
+      "ntp_logo_alternate": 1,
+      "ntp_background_repeat": "repeat"
     },
     "tints": {
-      "background_tab": [
-        -1,
-        0,
-        0.1
-      ],
       "buttons": [
         -1,
-        0,
-        0.3
+        -1,
+        0.96
       ]
     }
   }

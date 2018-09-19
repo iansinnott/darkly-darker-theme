@@ -1,9 +1,6 @@
-const darkBlack = [25, 25, 27];
-const midBlack = [42, 42, 42];
-const lightBlack = [85, 85, 87];
-
-const midWhite = [200, 200, 200];
-const darkWhite = [100, 100, 100];
+const darkBlack = [32, 33, 36];
+const midBlack = [50, 54, 57];
+const lightBlack = [60, 64, 67];
 
 const purple = [47, 36, 80];
 const red = [255, 25, 41];
@@ -26,45 +23,44 @@ module.exports = {
       frame_incognito: purple,
       frame_incognito_inactive: red,
 
-      // I think "ntp" stands for no tab present. This background color is shown
+      // I think "ntp" stands for no tab present (new tab pane?). This background color is shown
       // for a second when you hit ⌘T
-      ntp_background: midBlack,
-      ntp_text: midWhite,
+      ntp_background: [50, 54, 57],
+      ntp_text: [255, 255, 255],
 
       // NOTE: This affects all tabs, but only affects the active tab directly.
       // For inactive tabs the tints are used
-      tab_background_text: darkWhite,
-      tab_text: midWhite,
+      tab_background_text: [154, 160, 166],
+      tab_text: [241, 243, 244],
 
       // This is where the seach bar, back buttons and extensions are. Also the
       // background of the bookmarks bar if that is present in the UI.
       toolbar: midBlack,
 
       // Color of text in the bookmarks bar
-      bookmark_text: midWhite,
-
-      // Not yet sure what this one does...
-      button_background: [255, 255, 255],
+      rookmark_text: [241, 243, 244],
     },
 
     // This image business only seems to work for the buttons in the ⌘F find
     // menu, however it has the pleasant side effect of somehow killing off the
     // gradients on buttons in the download bar, which is what I wanted.
+    // images: {
+    //   theme_button_background: 'images/button_bg.png',
+    // },
     images: {
-      theme_button_background: 'images/button_bg.png',
+      theme_ntp_background: 'images/theme_ntp_background.png',
     },
 
     // Not sure if these are necessary but they are here for now
     properties: {
-      ntp_background_alignment: 'bottom',
-      ntp_background_repeat: 'no-repeat',
+      ntp_logo_alternate: 1,
+      ntp_background_repeat: 'repeat',
     },
 
     // Tints are a bit odd. They are in the form [h, s, l] where each is between
     // 0 and 1. A -1 means "no change"
     tints: {
-      background_tab: [-1, 0, 0.1],
-      buttons: [-1, 0, 0.3],
+      buttons: [-1, -1, 0.96],
     },
   },
 };
