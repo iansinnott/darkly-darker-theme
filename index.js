@@ -1,16 +1,16 @@
 const darkBlack = [25, 25, 27];
-const midBlack = [42, 42, 42]
+const midBlack = [42, 42, 42];
 const lightBlack = [85, 85, 87];
 
 const midWhite = [200, 200, 200];
 const darkWhite = [100, 100, 100];
 
 const purple = [47, 36, 80];
-const lightPurple = [255, 25, 41];
+const red = [255, 25, 41];
 
 module.exports = {
-  manifest_version: 2,
-  version: '1',
+  manifest_version: 3,
+  version: '2',
   name: 'Darkly Darker',
   description: 'Darkly Darker theme for Chrome/Chromium',
   theme: {
@@ -24,7 +24,7 @@ module.exports = {
       // Ditto above but for incognito windows. Purple was a fairly arbitrary
       // color choice. I just like it.
       frame_incognito: purple,
-      frame_incognito_inactive: lightPurple,
+      frame_incognito_inactive: red,
 
       // I think "ntp" stands for no tab present. This background color is shown
       // for a second when you hit ⌘T
@@ -57,13 +57,13 @@ module.exports = {
     // Not sure if these are necessary but they are here for now
     properties: {
       ntp_background_alignment: 'bottom',
-      ntp_background_repeat: 'no-repeat'
+      ntp_background_repeat: 'no-repeat',
     },
 
     // Tints are a bit odd. They are in the form [h, s, l] where each is between
     // 0 and 1. A -1 means "no change"
     tints: {
-      background_tab: [-1, 0, 0.10],
+      background_tab: [-1, 0, 0.1],
       buttons: [-1, 0, 0.3],
     },
   },
